@@ -4,3 +4,5 @@ This is a TicTacToe game that I have programmed in java through concepts taught 
 - Ensure that the images folder with the required images is attached
 TODO:
 - Make single player mode
+  - Maybe will have pieces just placed in random position
+  - Maybe will atempt to create bot that places X/O on best possible position
