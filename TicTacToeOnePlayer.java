@@ -139,7 +139,7 @@ System.out.println("test1");
 	// declare variables for labels
 	JLabel lblTitle = new JLabel("Tic Tac Toe"), lblPlayerOne = new JLabel("Player 1"), lblPlayerTwo = new JLabel("Player 2"),
 	lblTurn1 = new JLabel("Your Turn"), lblTurn2 = new JLabel("Your Turn"),
-	picBoard = new JLabel(new ImageIcon ("/Users/hussainm/Documents2/Java Codes/Games/Images/TicTacToeBoard.png")),
+	picBoard = new JLabel(new ImageIcon ("../Images/TicTacToeBoard.png")),
 	
 	topLeft = new JLabel (""), topMiddle = new JLabel(""),
 	topRight = new JLabel(""), middleLeft = new JLabel(""),
@@ -147,8 +147,8 @@ System.out.println("test1");
 	bottomLeft = new JLabel(""), bottomMiddle = new JLabel(""),
 	bottomRight = new JLabel(""),
 	
-	picX = new JLabel(new ImageIcon ("/Users/hussainm/Documents2/Java Codes/Games/Images/RedX.png")), 
-	picO = new JLabel(new ImageIcon ("/Users/hussainm/Documents2/Java Codes/Games/Images/BlueO.png")),
+	picX = new JLabel(new ImageIcon ("../Images/RedX.png")), 
+	picO = new JLabel(new ImageIcon ("../Images/BlueO.png")),
 	
 	lblWinMsg = new JLabel("");
 	
@@ -175,8 +175,8 @@ System.out.println("test1");
 		
 		// for loop to load x and o pieces
 		for (int i = 0; i < xPiece.length; i++) {
-			xPiece[i] = new JLabel(new ImageIcon ("/Users/hussainm/Documents2/Java Codes/Games/Images/RedX.png"));
-			oPiece[i] = new JLabel(new ImageIcon ("/Users/hussainm/Documents2/Java Codes/Games/Images/BlueO.png"));
+			xPiece[i] = new JLabel(new ImageIcon ("../Images/RedX.png"));
+			oPiece[i] = new JLabel(new ImageIcon ("../Images/BlueO.png"));
 		}
 		
 		// set characteristics of objects
